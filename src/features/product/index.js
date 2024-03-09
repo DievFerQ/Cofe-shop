@@ -72,7 +72,7 @@ const Product = () => {
                 {product?.name}
               </h1>
               <div className="flex mb-4">
-                <a className="flex-grow text-yellow-800 border-b-2 border-yellow-800 py-2 text-lg px-1">
+                <a href="#" className="flex-grow text-yellow-800 border-b-2 border-yellow-800 py-2 text-lg px-1">
                   Description
                 </a>
               </div>

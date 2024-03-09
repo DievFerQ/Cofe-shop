@@ -12,7 +12,7 @@ const Products = ({ products = []}) => {
               const { id, title, price, description, image_url, region, name} = product;
               return (
                 <Link to={`/products/${id}`} className="lg:w-1/4 md:w-1/2 p-4 w-full">
-                  <a className="block relative h-48 rounded overflow-hidden">
+                  <a href="#" className="block relative h-48 rounded overflow-hidden">
                     <img
                       alt={title}
                       className="object-cover object-center w-full h-full block"
