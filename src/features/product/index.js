@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import ClipLoader from "react-spinners/ClipLoader";
 import { ToastContainer, toast } from "react-toastify";
-//import { ToastContainer } from "react-toastr";
+
 
 
 const Product = () => {
@@ -16,7 +16,7 @@ const Product = () => {
 
 
   useEffect(() => {
-    fetch(`https://fake-coffee-api.vercel.app/api/${id}`)
+    fetch(`https://api.sampleapis.com/coffee/hot/${id}`)
       .then((response) => response.json())
       .then((data) => {
         if (Array.isArray(data) && data.length > 0) {

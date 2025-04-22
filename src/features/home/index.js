@@ -12,7 +12,7 @@ const Home = () => {
 
   useEffect(() => {
     const fetchProducts = async() => {
-      const response  = await fetch('https://fake-coffee-api.vercel.app/api?limit=8')
+      const response  = await fetch('https://api.sampleapis.com/coffee/hot?limit=8')
       const data = await response.json()
       console.log(data)
       setProducts(data)

@@ -53,9 +53,9 @@ const Cart = () => {
 
   return (
     <>
-      <div className="container mx-auto mt-10 ">
-        <div className="flex shadow-sm my-10">
-          <div className="w-3/4 bg-white px-10 py-10">
+      <div className="container mx-auto mt-10 overflow-x-hidden">
+        <div className="flex shadow-sm my-10 ">
+          <div className=" w-3/4 bg-white px-10 py-10 ">
             <div className="flex justify-between border-b pb-8">
               <h2 className="font-semibold text-2xl">Shopping Cart</h2>
               <h3 className="font-semibold text-2xl">{cart?.length} Items</h3>

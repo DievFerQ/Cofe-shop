@@ -62,7 +62,7 @@ const ContactUs = () => {
                 </button>
               </div>
               <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a href="#" class="text-sky-800">moreCoffee@misasCup.com</a>
+                <p class="text-sky-800">moreCoffee@cofestore.com</p>
                 <p class="leading-normal my-5">49 Smith St.</p>
                 <span class="inline-flex">
                   <a href="#" class="text-gray-500">

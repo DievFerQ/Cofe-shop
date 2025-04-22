@@ -132,7 +132,7 @@ const Header = () => {
               alt="Cafe_logo"
               className="w-20 h-20 text-white p-2 rounded-full"
             />
-            <span className="ml-3 text-xl">Misas cup</span>
+            <span className="ml-3 text-xl">Coffee Shop</span>
           </Link>
 
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">

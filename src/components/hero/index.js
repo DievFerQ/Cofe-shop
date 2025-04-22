@@ -43,7 +43,7 @@ const Hero = () => {
           {
             Slides.map((slide, slideIndex) => (
               <div key={slideIndex} onClick={() => goSlide(slideIndex)} className="text-2xl cursor-pointe">
-                <RxDotFilled />
+                {/* <RxDotFilled /> */}
               </div>
             ))
           }

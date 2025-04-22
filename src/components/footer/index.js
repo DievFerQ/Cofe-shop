@@ -15,7 +15,7 @@ const Footer = () => {
                 alt="Cafe_logo"
                 className="w-20 h-20 text-white p-2 rounded-full"
               />
-              <span className="ml-3 text-xl">Misas Cup</span>
+              <span className="ml-3 text-xl">Coffee Shop</span>
             </a>
             <p className="mt-2 text-sm text-gray-600">
               The best coffee in the world
@@ -50,14 +50,14 @@ const Footer = () => {
         <div className="bg-gray-100">
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-gray-500 text-sm text-center sm:text-left">
-              © 2020 Misas Cup —
+              © 2020 Coffee Shop —
               <a
                 href="#"
                 rel="noopener noreferrer"
                 className="text-gray-600 ml-1"
                 target="_blank"
               >
-                @Misas_cup
+                @Coffee_shop
               </a>
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">

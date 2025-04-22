@@ -7,7 +7,7 @@ const AllProducts = () => {
   const [products, setProducts] = useState([])
   useEffect(() => {
     const fetchProducts = async () => {
-      const response = await fetch("https://fake-coffee-api.vercel.app/api")
+      const response = await fetch("https://api.sampleapis.com/coffee/hot")
       const data = await response.json()
       console.log(data)
       setProducts(data)
